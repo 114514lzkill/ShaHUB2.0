@@ -24,10 +24,10 @@ local Window = WindUI:CreateWindow({
         end,
     },
 
-local Tab = Window:MakeTab({
+local Section = Window:Section({
     Title = "无",
     Icon = "bird",
-    Locked = false,
+    Opened = true,
 })
 
 Tab:AddParagraph("沙脚本2.0 ")
@@ -36,3 +36,8 @@ Tab:AddParagraph("作者roblox id:114514lzkill")
 Tab:AddParagraph("作者QQ3957336350")
 Tab:AddParagraph("Q群1026924908")
 
+local Section = Window:Section({
+    Title = "通用",
+    Icon = "bird",
+    Opened = true,
+})
