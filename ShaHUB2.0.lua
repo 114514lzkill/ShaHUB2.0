@@ -24,7 +24,7 @@ local Window = WindUI:CreateWindow({
         end,
     },
 
-local Tab = Window:Tab({
+local Tab = Window:MakeTab({
     Title = "无",
     Icon = "bird",
     Locked = false,
